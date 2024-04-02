@@ -24,6 +24,6 @@ cd ../meta-openembedded/
 git checkout kirkstone
 
 cd ..
-source poky/oe-init-build-env buildmp1
+source poky/oe-init-build-env buildqemu
 
 bitbake-layers show-layers
